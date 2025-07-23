@@ -10,5 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 0) do
+ActiveRecord::Schema[7.1].define(version: 2025_07_23_082140) do
+  create_table "contracts", force: :cascade do |t|
+    t.string "client_company_name"
+    t.string "target_software_name"
+    t.datetime "maintenance_start_date"
+    t.datetime "maintenance_end_date"
+    t.string "maintenance_fee"
+    t.string "ticket_code"
+    t.boolean "contract_status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end
