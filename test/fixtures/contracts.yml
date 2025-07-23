@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client_company_name: MyString
+  target_software_name: MyString
+  maintenance_start_date: 2025-07-23 17:21:40
+  maintenance_end_date: 2025-07-23 17:21:40
+  maintenance_fee: MyString
+  ticket_code: MyString
+  contract_status: false
+
+two:
+  client_company_name: MyString
+  target_software_name: MyString
+  maintenance_start_date: 2025-07-23 17:21:40
+  maintenance_end_date: 2025-07-23 17:21:40
+  maintenance_fee: MyString
+  ticket_code: MyString
+  contract_status: false
